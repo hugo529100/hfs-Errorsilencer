@@ -1,7 +1,7 @@
 exports.version = 2.1
 exports.apiRequired = 1
 exports.description = "Silence known harmless console errors by keyword"
-exports.repo = "local/Errorsilencer"
+exports.repo = "Hug3O/Errorsilencer"
 
 /**
  * Admin panel configuration
