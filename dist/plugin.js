@@ -1,7 +1,7 @@
-exports.version = 2.1
+exports.version = 2.2
 exports.apiRequired = 1
 exports.description = "Silence known harmless console errors by keyword"
-exports.repo = "Hug3O/Errorsilencer"
+exports.repo = "hugo529100/hfs-Errorsilencer"
 
 /**
  * Admin panel configuration
@@ -33,6 +33,10 @@ const KEYWORDS = [
     "Deleted old log file",
     "Freed ",
     "plugin's repo check failed Error:",
+    "checking for updates",
+    " Deleted old log file",
+    " Freed ",
+    "VideoJS FFmpeg:",
 ]
 
 function shouldBlock(args) {
